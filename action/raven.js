@@ -130,7 +130,7 @@ console.log(prefix);
   : sender;
      const isAdmin = m.isGroup ? groupAdmin.includes(groupSender) : false;
      const Owner = owner.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(groupSender)	
-     const Dev = '254114660061'.split(",");
+     const Dev = '254741819582'.split(",");
      const date = new Date()  
      const timestamp = speed(); 
      const Rspeed = speed() - timestamp 
@@ -438,7 +438,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
             const currentHour = DateTime.now().setZone('Africa/Nairobi').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
-                return '𝗚𝗼𝗼𝗱 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 🌅';
+                return '𝗚𝗼𝗼𝗱 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 🥱';
             } else if (currentHour >= 12 && currentHour < 16) {
                 return '𝗚𝗼𝗼𝗱 𝗔𝗳𝘁𝗲𝗿𝗻𝗼𝗼𝗻 ☀️';
             } else if (currentHour >= 16 && currentHour < 20) {
@@ -787,7 +787,7 @@ client.sendMessage(m.chat, {
                                 title: `𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/Raven.jpg'),
-                                sourceUrl: 'https://wa.me/254114660061?text=Hello+Raven+dev+I+need+a+bot',
+                                sourceUrl: 'https://wa.me/254741819582?text=Hello+Raven+dev+I+need+a+bot',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
